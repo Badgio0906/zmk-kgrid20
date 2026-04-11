@@ -1,0 +1,5 @@
+config SHIELD_K_GRID_LEFT
+    def_bool $(shields_list_contains,k_grid_left)
+
+config SHIELD_K_GRID_RIGHT
+    def_bool $(shields_list_contains,k_grid_right)
